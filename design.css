@@ -1,0 +1,176 @@
+.container {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+}
+
+
+.event_container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: khaki;
+    width:180%;
+    margin: 10px;
+}
+ .image_container img{
+
+       width: 100%;
+       height: auto;
+    
+
+}
+.event_name_container{
+    display: block;
+    text-align: center;
+    font: metropolis;
+    font-weight: bold;
+    font-size: 32px;
+}
+.event_info_container{
+    margin: 20px;
+    font-family:metropolis ;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.input_box{
+    background-color: #EFEDE9;
+    margin:0 5% 0 5%;
+   
+}
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 130px 50px 130px;
+   
+}
+.Logo_size{
+    width: 20%;
+}
+h5{
+ 
+    font-family: metropolis;
+    font-weight: bold   ;
+    font-size: 28px;
+    color: black;
+}
+
+
+.input_container{
+    display: flex;
+    align-items: center;
+    padding: 0 10px  50px 10px;
+    margin: 0 auto;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    align-items: center;
+}
+.input label{
+    display: flex;
+    flex-direction: column  ;
+    flex-wrap: none;
+    background-color: #111C4B;
+    color: yellow;
+    width: 230px;
+    font-size: 21px;
+    border:2px solid;
+    border-color: #111C4B;
+    padding: 0 auto;
+    margin:5px auto;
+}
+.input input[type=text],.input select{
+    height: 30px;
+    width: 230px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: none;
+    
+}
+.input select{
+    height: 30px;
+}
+.input_container {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+.seperate{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+   
+}
+.btn input[type=submit]{
+    background-color: #111C4B;
+    height: 30px;
+    width: 320px ;
+    color: yellow;
+    font-family: metropolis;
+    font-size: bold;
+
+}
+
+.status{
+    background-color:#c2f2c2;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 20px 20px 10px;
+}
+
+.alert{
+
+    background-color: #fbc1c1;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 20px 20px 10px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .event_container {
+        width: 100%;
+    }
+
+    .input_container {
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .header_container{
+      padding: 30px 65px 25px 65px;;;
+    }
+    .Logo_size{
+        width: 30%;
+    }
+    h5{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width) {
+    
+}

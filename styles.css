@@ -1,0 +1,30 @@
+body{
+    font-family: umakfont;
+    src: url(font/Marcellus/Marcellus-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding:0  ;
+}
+header,footer{
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    color:aliceblue
+
+}
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: center;
+ 
+     
+}
+footer{
+ height: 15vh;   
+ bottom: 0;
+}
+.logo{
+    height: 10vh;
+    width: 10vh
+}

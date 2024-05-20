@@ -1,0 +1,318 @@
+@font-face {
+  font-family: Umakfont;
+  src: url(font/Marcellus/Marcellus-Regular.ttf);
+
+  font-family: Metropolis;
+  src: url("https://fonts.cdnfonts.com/css/metropolis-2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.7)),
+    url(images/Untitled\ design.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: #111c4b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.brand {
+  font-family: Umakfont;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  margin-right: auto;
+  word-spacing: 5px;
+}
+.Logo {
+  width: 5%;
+  margin: 5px 0;
+}
+
+.cointainer {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  height: 10%;
+  display: flex;
+  flex-direction: center;
+  background-color: #111c4b;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+}
+
+.Login {
+  border: 3px solid;
+  border-color: #fdf000c6;
+
+  border-radius: 25px;
+  top: 60%;
+  left: 30%;
+  height: 494px;
+  width: 390px;
+  padding: 30px;
+  margin: auto;
+  margin-right: 0;
+  padding-right: 4rem;
+  background-color: #111c4b;
+  display: flex;
+  flex-direction: column;
+}
+/* @media screen and (min-width: 768px) {
+  .Login {
+    width: 100%;
+    transform: translate(0%, 0%);
+  }
+} */
+.upcoming {
+  border: 5px solid;
+  border-color: #fdf000c6;
+  border-radius: 25px;
+  top: 50%;
+  left: 140%;
+  height: 494px;
+  width: 390px;
+  transform: translate(-20%, 0%);
+  padding: 30px 10px 30px 0px;
+  margin: 0 10px 0 0;
+  margin: auto;
+  margin-left: 0;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .cointainer {
+    flex-direction: column;
+  }
+  .Login {
+    margin: 0;
+    margin-top: 200px;
+    width: 375px;
+    padding-right: 0rem;
+  }
+  .upcoming {
+    margin: 0;
+    width: 375px;
+    transform: none;
+  }
+}
+.logo_size {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+.Login_Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_header {
+  display: flex;
+  color: white;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.input2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  margin-top: 6vh;
+  padding-left: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+
+.department {
+  margin-top: 5px;
+  border-radius: 25px;
+  width: 335px;
+  padding-left: 5px;
+  font-weight: bold;
+  height: 30px;
+  border: none;
+}
+
+.code {
+  margin-top: 5px;
+  border-radius: 25px;
+  width: 335px;
+  padding-left: 5px;
+  font-weight: bold;
+  padding: 5px;
+  height: 30px;
+  border: none;
+}
+
+.getcode {
+  background-color: yellow;
+  border: none;
+  font-weight: bold;
+  font-family: Umakfont2;
+  border-radius: 25px;
+  height: 30px;
+  width: 80px;
+  transform: translate(0%, 0%);
+  padding: 5px;
+}
+
+.LogginBtn {
+  margin-top: 10px;
+  border: none;
+  font-family: Metropolis;
+  background-color: #fdf100;
+  width: 335px;
+
+  height: 25px;
+}
+
+.alert {
+  margin-top: 5px;
+  background-color: rgba(237, 99, 99, 0.927);
+  border: none;
+  width: 304px;
+  height: 75px;
+  text-align: center;
+  font-family: Metropolis;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeStatus {
+  margin-top: 5px;
+  background-color: rgba(78, 255, 98, 0.734);
+  border: none;
+  width: 304px;
+  height: 75px;
+  text-align: center;
+  font-family: Metropolis;
+  font-weight: bold;
+  font-size: 0.8375rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Upcoming_Header {
+  align-items: center;
+  margin: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image {
+  background-color: khaki;
+  height: 459px;
+  width: 401px;
+  border: none;
+  border-radius: 25px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.mySlides img {
+  height: 100%;
+  width: 108%;
+  border: none;
+  border-radius: 25px;
+}
+
+.active {
+  background-color: #717171;
+  width: 15px;
+  border-radius: 25px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.mySlides {
+  display: none;
+  height: 100%;
+  width: 374px;
+}
+
+.Image_info {
+  background-color: khaki;
+  border-radius: 20px;
+  height: 100px;
+  width: 350px;
+  margin: 0 10px 0 0;
+  display: none;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-family: Umakfont;
+  font-weight: 400;
+  position: absolute;
+  bottom: 44px;
+  left: 9px;
+  background-color: rgba(158, 157, 157, 0.5);
+}
+.title {
+  bottom: 90px;
+  font-weight: Bold;
+  font-size: 26px;
+}
+.test {
+  background-color: #ffffffe0;
+}
